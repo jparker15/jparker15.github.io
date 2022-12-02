@@ -1,10 +1,98 @@
-body {  
-        text-align: center;
-        background-color: gray;
-    }
-    h1 {
-      color: red;
-    }
-    p {
-        color: pink;
-    }
+body{
+   font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 500px;
+    background-color: gray;
+    border: solid black 1px;
+
+}
+
+.hero {
+    background-color: #0F3325;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    height: 500px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    
+    text-decoration: none;
+}
+
+h1{
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-text {
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 65px;
+    border-radius: 30px;
+    background-color:#47192C;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #943B60;
+}
+
+.button:active{
+    background-color: #ffc1cc;
+    color: #C2FFCD;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 90px;
+    margin: 30px;
+}
+
+.social {
+    margin: 30px;
+}
