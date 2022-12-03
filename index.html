@@ -3,27 +3,34 @@
     <head>
         <link rel="stylesheet" href="./src/styles.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/08b55a5877.js" crossorigin="anonymous"></script>
         <title>Portfoliolo</title>
         <meta charset="UTF-8"/>
     </head>
 
     <body>
+
         <section class="hero">
+
             <nav>
                <img class="logo" src="./src/images/logo.png" alt="it's a Mason"/>
-                <ul>
-                    <li>About me</li>
-                    <li>Projects</li>
-                    <li>Contact me</li>
+                <ul id="nav-list"> 
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
+
             <div class="hero-area">
                 <div class="hero-text">
                     <h1>Jeremy Parker</h1>
                     <p>Full Stack Developer</p>
-                    <div class="button">About Me</div>
+                    <div class="button"><a href="#about-me">About me</a></div>
                 </div> 
                 <div class="socials">
                     <div>
@@ -38,53 +45,70 @@
                     </div>
                 </div> 
             </div>
+
         </section>
 
-        <section class="sub-section">
+        <section class="sub-section" id="about-me">
+
             <div class="information">
                 <h2>About Me</h2>
                 <p>Hi. My name is Jeremy Parker. I am a Software Developer with a passion to get paid.</p>
                 <br>
                 <p>"Doryah y'all." -  Dr. Heihachi</p>
             </div>
+
             <div class="headshot-container">
                 <img class="headshot" src="./src/images/headshot.jpg" alt="placeholder headshot"/>
             </div>
+
         </section>
-        <section class="projects-section">
+
+        <section class="projects-section" id="projects">
+
             <h2>Projects</h2>
+
             <div class="project-container">
+
                 <div class="project-card">
                     <img class="project-image" src="./src/images/p1.jpg" alt="project 1 img">
                     <h3>Project One</h3>
                     <p class="subtext"> this is filler text idk how these projects actually work </p>
                     <hr>
-                    <p class="subtext">View Here</p>
+                    <p class="subtext"><a class = "project-link" href="https://github.com/jparker15/Go-ToDo-App">View Here</a></p>
                 </div>
+
                 <div class="project-card">
                     <img class="project-image" src="./src/images/p2.jpg" alt="project 2 img">
                     <h3>Project Two</h3>
                     <p class="subtext"> this is filler text idk how these projects actually work </p>
                     <hr>
-                    <p class="subtext">View Here</p>
+                    <p class="subtext"><a class = "project-link" href="https://github.com/jparker15/Currency-Converter">View Here</a></p>
                 </div>
+
                 <div class="project-card">
                     <img class="project-image" src="./src/images/p3.jpeg" alt="project 3 img">
                     <h3>Project Three</h3>
                     <p class="subtext"> this is filler text idk how these projects actually work </p>
                     <hr>
-                    <p class="subtext">View Here</p>
+                    <p class="subtext"><a class = "project-link" href="https://github.com/jparker15/Java-Snake">View Here</a></p>
                 </div>
+                
                 <div class="project-card">
                     <img class="project-image" src="./src/images/p4.jpg" alt="project 4 img">
                     <h3>Project Four</h3>
                     <p class="subtext"> this is filler text idk how these projects actually work </p>
                     <hr>
-                    <p class="subtext">View Here</p>
+                    <p class="subtext"><a class = "project-link" href="https://github.com/jparker15/Spring-Boot-OAuth2">View Here</a></p>
                 </div>
+
             </div>
+
         </section>
-        <footer></footer>
+
+        <footer id="contact-me">
+            <h2>Contact me</h2>
+            <p>jeremyeparker@yahoo.com</p>
+        </footer>
 
 
     <script src="./src/app.js"></script> 
