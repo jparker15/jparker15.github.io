@@ -15,7 +15,11 @@ section {
 
 footer{
     height: 500px;
+    color: #ffd1dc;
     background-color: black;
+    text-align: center;
+    padding: 80px;
+
 }
 
 nav {
@@ -29,6 +33,10 @@ ul {
     width: 500px;
     justify-content: space-around;
     font-size: 30px;
+}
+
+ul.show{
+    display: block;
 }
 
 li {
@@ -108,6 +116,7 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 30px;
+    height: auto;
 }
 
 .projects-section{
@@ -140,8 +149,71 @@ p {
     justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 100){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .project-image{
     margin-top: 25px;
     width: 250px;
     border-radius: 125px;
+}
+
+.project-link{
+    text-decoration:none;
+    color: rgb(244, 137, 155);
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width:1000px) {
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul{
+        display: none;
+        background-color: #12412f;
+        margin: 0px;
+    }
+
+    ul.show{
+        display: block;
+        
+    }
+
+    nav{
+       display: flex;
+       flex-direction: column-reverse;
+       background-color: #12412f;
+    }
+
+    .logo{
+        display: none;
+    }
 }
