@@ -139,6 +139,7 @@ p {
 }
 
 .project-card{
+    min-width: 0;
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px;
@@ -147,7 +148,7 @@ p {
 
 .project-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 @media only screen and (max-width: 100){
@@ -158,16 +159,20 @@ p {
 }
 
 .project-image{
+    min-width: 0;
     margin-top: 25px;
-    width: 250px;
-    border-radius: 125px;
+    width: 125px;
+    border-radius: 100px;
 }
 
 .project-link{
     text-decoration:none;
-    color: rgb(244, 137, 155);
+    color: #47192C;
 }
 
+.project-link:hover{
+    color: #943B60;
+}
 hr{
     margin-left: 20px;
     margin-right: 20px;
