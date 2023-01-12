@@ -46,17 +46,17 @@ li {
 }
 
 h1{
-    font-size: 90px;
+    font-size: 5.9vw;
     margin: 0;
 }
 
 h2{
-    font-size: 50px;
+    font-size: 3.5vw;
 }
 
 p {
     margin: 0;
-    font-size: 30px;
+    font-size: 2.5vw;
     font-weight: 300;
 }
 
@@ -100,7 +100,8 @@ p {
 }
 
 .socials {
-    padding-bottom: 200px;
+    outline: 1px solid red;
+    /* padding-bottom: 200px; */
 }
 
 .logo {
@@ -109,6 +110,7 @@ p {
 }
 
 .social {
+    outline: 1px solid yellow;
     margin: 30px;
 }
 
