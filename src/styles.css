@@ -182,8 +182,16 @@ a:hover{
     color: #f597a8;
 }
 
+a:active{
+    color: #ffc1cc;
+}
+
 svg:hover{
     fill: #f597a8;
+}
+
+svg:active{
+    fill: #ffc1cc;
 }
 
 .hamburger{
