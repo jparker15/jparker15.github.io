@@ -57,11 +57,8 @@
 
             <div class="information">
                 <h2>About Me</h2>
-                <p>“A QA engineer walks into a bar. Orders a beer. Orders 0 beers. Orders 99999999999 beers. Orders a lizard. Orders -1 beers. Orders a ueicbksjdhd.</p>
-                <br>
-                <p>First real customer walks in and asks where the bathroom is.</p>
-                <br>
-                <p> The bar bursts into flames, killing everyone.</p>
+
+                <p class="about-me">Software Developer with over three years of experience writing code and documenting features. Experienced in full stack development and working inside a team remotely or in person.</p>
             </div>
 
             <!-- <div class="headshot-container">
@@ -77,7 +74,7 @@
             <div class="project-container">
 
                 <div class="project-card">
-                    <img class="project-image" src="./src/images/p1.jpg" alt="project 1 img">
+                    <img class="project-image" src="./src/images/p1.png" alt="project 1 img">
                     <h3>Folder Script</h3>
                     <p class="subtext"> A Node.js script to remove special characters from folders  </p>
                     <hr>
@@ -85,7 +82,7 @@
                 </div>
 
                 <div class="project-card">
-                    <img class="project-image" src="./src/images/p2.jpg" alt="project 2 img">
+                    <img class="project-image" src="./src/images/p2.png" alt="project 2 img">
                     <h3>Currency Converter</h3>
                     <p class="subtext"> Calculator for converting real time values of global currencies</p>
                     <hr>
@@ -115,7 +112,28 @@
         <footer id="contact-me">
             <h2>Contact me</h2>
 
+            <div class="container">
+                <h1>FormSubmit Demo</h1>
+                <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+                  <div class="form-group">
+                    <div class="form-row">
+                      <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                      </div>
+                      <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                </form>
+              </div>
+              
             <br>
+            
             <div class="socials">
                 <div>
                     <a href="https://www.linkedin.com/in/jeremy-e-parker/" class="social" target="_blank">
